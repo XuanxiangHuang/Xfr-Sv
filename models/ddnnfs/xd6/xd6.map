@@ -1,0 +1,24 @@
+# a feature map file
+# dataset: xd6
+NF: 9
+Type:
+discrete,discrete,discrete,discrete,discrete,discrete,discrete,discrete,discrete
+Map:
+Attribute 1:=1:1
+Attribute 1:=0:-1
+Attribute 2:=1:2
+Attribute 2:=0:-2
+Attribute 3:=1:3
+Attribute 3:=0:-3
+Attribute 4:=1:4
+Attribute 4:=0:-4
+Attribute 5:=1:5
+Attribute 5:=0:-5
+Attribute 6:=1:6
+Attribute 6:=0:-6
+Attribute 7:=1:7
+Attribute 7:=0:-7
+Attribute 8:=1:8
+Attribute 8:=0:-8
+Attribute 9:=1:9
+Attribute 9:=0:-9

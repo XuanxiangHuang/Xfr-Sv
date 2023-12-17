@@ -1,0 +1,6 @@
+corral
+mofn_3_7_10
+mux6
+parity5+5
+threeOf9
+xd6

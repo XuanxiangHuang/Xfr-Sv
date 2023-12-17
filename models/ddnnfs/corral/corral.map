@@ -1,0 +1,18 @@
+# a feature map file
+# dataset: corral
+NF: 6
+Type:
+discrete,discrete,discrete,discrete,discrete,discrete
+Map:
+A0:=1:1
+A0:=0:-1
+A1:=1:2
+A1:=0:-2
+B0:=1:3
+B0:=0:-3
+B1:=1:4
+B1:=0:-4
+Irrelevant:=1:5
+Irrelevant:=0:-5
+Correlated:=1:6
+Correlated:=0:-6
