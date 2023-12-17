@@ -11,7 +11,7 @@ import numpy as np
 from classifiers.omdd import OMDD
 from classifiers.ddnnf import dDNNF
 from LXp_ddnnf import XpdDnnf
-from LXp_omdd import XpOMDD
+from LXp_mdd import XpOMDD
 import matplotlib.pyplot as plt
 ################################################################################
 
