@@ -24,7 +24,7 @@ def plot_max_irr_min_rel(data, col_names, fig_title, filename, score_type="lundb
     ax1 = df.plot.scatter(x=col_names[0], y=col_names[1], color="#E69F00")
     ax2 = df.plot.scatter(x=col_names[0], y=col_names[2], color="#56B4E9", ax=ax1)
     ax2.set_xlabel("Instance #")
-    ax2.set_ylabel("aSHAP scores" if score_type == "lundberg" else "eSHAP scores")  # approximate SHAP or exact SHAP
+    ax2.set_ylabel("SHAP scores" if score_type == "lundberg" else "exact SHAP scores")  # SHAP or exact SHAP
     # plt.title(fig_title)
     plt.savefig(filename)
     plt.clf()
@@ -38,7 +38,7 @@ def plot_irr_rel_summary(data, len_X, fig_title, filename, score_type="lundberg"
     plt.annotate(f'{data[0]}', xy=(0, data[0]), ha='center', va='bottom')
     plt.annotate(f'{data[1]}', xy=(1, data[1]), ha='center', va='bottom')
     plt.ylabel('# Instances')
-    plt.xlabel('aSHAP scores' if score_type == "lundberg" else 'eSHAP scores')  # approximate SHAP or exact SHAP
+    plt.xlabel('SHAP scores' if score_type == "lundberg" else 'exact SHAP scores')  # SHAP or exact SHAP
     # plt.title(fig_title)
     plt.savefig(filename)
     plt.clf()
