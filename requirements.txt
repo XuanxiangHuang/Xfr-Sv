@@ -1,0 +1,10 @@
+importlib-resources==5.12.0
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+networkx==3.0
+numpy==1.23.5
+pandas==1.5.3
+python-sat==0.1.8.dev2
+scikit-image==0.20.0
+scikit-learn==1.2.2
+shap==0.41.0
