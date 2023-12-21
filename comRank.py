@@ -46,8 +46,7 @@ if __name__ == '__main__':
             l_wrong_pairs = [0] * int((m * (m - 1)) / 2 + 1)
             for k in range(n):
                 l_wrong = sum((b_score[k, i] < b_score[k, j] and l_score[k, i] >= l_score[k, j])
-                              or (b_score[k, i] == b_score[k, j] and l_score[k, i] != l_score[k, j])
-                              or (b_score[k, i] > b_score[k, j] and l_score[k, i] <= l_score[k, j])
+                              or (b_score[k, i] >= b_score[k, j] and l_score[k, i] < l_score[k, j])
                               for i in range(m)
                               for j in range(i + 1, m))
                 l_wrong_pairs[l_wrong] += 1
