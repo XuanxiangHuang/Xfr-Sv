@@ -1,5 +1,5 @@
 # Xfr-Sv
-On the comparison between (explanation) feature relevancy, as measured by AXp and CXp, and SHAP scores 
+On the comparison between (formal explanation) feature relevancy, as measured by AXp and CXp, and SHAP scores 
 (computed using Lundberg's SHAP tool or Barcelo's algorithms).
 
 ## Installation
